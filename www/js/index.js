@@ -41,7 +41,9 @@ var app = {
             }, function(){
                 alert('FB init false');
             });
-	    FB.login();  
+	    FB.login(function(response){
+                console.log(response);
+            },{ scope: "email" });  
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
