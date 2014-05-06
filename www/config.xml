@@ -81,8 +81,8 @@
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" />
 
 <gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.4.0">
-    <param name="APP_ID" value="228740603990565" />
-    <param name="APP_NAME" value="phonegap_test_app" />
+    <param name="APP_ID" value="278909955619673" />
+    <param name="APP_NAME" value="antisms-fbapp" />
 </gap:plugin>
 
     <!--

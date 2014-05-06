@@ -35,7 +35,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
             FB.init({
-                appId: "228740603990565",
+                appId: "278909955619673",
                 nativeInterface: CDV ? CDV.FB : false,
                 useCachedDialogs: false
             }, function(){
